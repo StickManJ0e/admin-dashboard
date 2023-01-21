@@ -13,6 +13,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto';
+    margin: 0;
 }
 
 span.dashboard {
@@ -95,8 +96,9 @@ header {
 
 .header-top {
     display: flex;
-    gap: 10px;
-    margin: 10px;
+    gap: 15px;
+    margin: 20px;
+    align-items: center;
 }
 
 .header-top > p {
@@ -112,4 +114,13 @@ header {
 .header-top > input {
     flex: 1;
     margin-right: 3rem;
+    -webkit-appearance: none;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #e5e5e5;
+    height: 28px;
+}
+
+input::placeholder {
+    margin-left: 10px;
 }
