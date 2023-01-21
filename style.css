@@ -27,9 +27,14 @@ h1 {
     display: flex;
     align-items: center;
     gap: 10px;
-    grid-area: 1 / 2 / 2 / 3;
     margin: 10px;
     margin: 15px 15px 0 15px;
+}
+
+header {
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
 .sidebar {
@@ -81,4 +86,19 @@ h1 {
 .sidebar-heading,
 .sidebar-icon {
     color: var(--sidebar-icon-text-color);
+}
+
+.icon {
+    width: 24px;
+    height: auto; 
+}
+
+.profile-information > p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile-information > .profile-icon {
+    width: 32px;
+    height: auto;
 }
