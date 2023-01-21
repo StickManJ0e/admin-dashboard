@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,9 +19,67 @@
 <body>
     <div class="sidebar">
         <div class="heading">
-            <i class="material-icons dashboard">dashboard</i>
+            <span class="material-icons dashboard">dashboard</span>
             <h1>Dashboard</h1>
         </div>
+        <ul class="sidebar-nav">
+            <li>
+                <a href="">
+                    <img src="icons/home.svg" alt="home icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Home</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/account-circle-outline.svg" alt="profile icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Profile</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/message.svg" alt="messages icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Messages</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/history.svg" alt="history icon" class="sidebar-icon">
+                    <p class="sidebar-heading">History</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/format-list-checkbox.svg" alt="task list icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Tasks</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/account-group.svg" alt="communities icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Communities</p>
+                </a>
+            </li>
+        </ul>
+        <ul class="sidebar-other">
+            <li>
+                <a href="">
+                    <img src="icons/cog.svg" alt="settings icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Settings</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/help-circle.svg" alt="support icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Support</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="icons/security.svg" alt="privacy icon" class="sidebar-icon">
+                    <p class="sidebar-heading">Privacy</p>
+                </a>
+            </li>
+        </ul>
     </div>
     <header></header>
     <div class="main-content"></div>
